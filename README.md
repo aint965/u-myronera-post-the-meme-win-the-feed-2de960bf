@@ -1,8 +1,8 @@
 # Post the Meme, Win the Feed — make.fun entry
 
 [![make.fun](https://make.fun/badge/u-myronera-post-the-meme-win-the-feed-2de960bf.svg)](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf)
-[![Rank](https://make.fun/badge/u-myronera-post-the-meme-win-the-feed-2de960bf/aint965/u-myronera-post-the-meme-win-the-feed-2de960bf-xingchi/rank.svg)](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf)
-[![Reward](https://make.fun/badge/u-myronera-post-the-meme-win-the-feed-2de960bf/aint965/u-myronera-post-the-meme-win-the-feed-2de960bf-xingchi/reward.svg)](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf)
+[![Rank](https://make.fun/badge/u-myronera-post-the-meme-win-the-feed-2de960bf/aint965/u-myronera-post-the-meme-win-the-feed-2de960bf/rank.svg)](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf)
+[![Reward](https://make.fun/badge/u-myronera-post-the-meme-win-the-feed-2de960bf/aint965/u-myronera-post-the-meme-win-the-feed-2de960bf/reward.svg)](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf)
 
 An entry for the make.fun competition
 [Post the Meme, Win the Feed](https://make.fun/bounty/u-myronera-post-the-meme-win-the-feed-2de960bf).
