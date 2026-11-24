@@ -38,6 +38,17 @@ if (typeof parsed !== 'object' || parsed === null || typeof (parsed as { url?: u
   console.error('POST.json must be a JSON object with a string "url" field');
   process.exit(1);
 }
+const postUrl = (parsed as { url: string }).url;
+
+// The address must be a real X post address, so a typo or a link to the
+// wrong page is caught here instead of failing the gate downstream.
+// Accepted shapes: https://x.com/<handle>/status/<digits> (also
+// twitter.com, and www. or mobile. prefixes), or /i/web/status/<id>.
+const postPattern = /^https:\/\/(?:www\.|mobile\.)?(?:x\.com|twitter\.com)\/(?:[A-Za-z0-9_]+|i\/web)\/status\/\d+$/;
+if (!postPattern.test(postUrl)) {
+  console.error(`POST.json "url" is not a valid X post address: ${postUrl}`);
+  process.exit(1);
+}
 
 mkdirSync(outDir, { recursive: true });
 writeFileSync(target, payload);
